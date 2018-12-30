@@ -1,0 +1,33 @@
+{% extends "back/base.html" %}
+
+{% load staticfiles %}
+{% load custom_tags %}
+{% load i18n %}
+
+{% block title %}{% trans 'Add' %}{% endblock %}
+
+{% block website_name %}{% trans 'Add' %}{% endblock %}
+
+{% block content %}
+
+{% if msg_ok %}
+    <div class="alert alert-info" role="alert">
+        <strong>{{ msg_ok }}</strong>
+    </div>
+{% endif %}
+
+{% if msg_err %}
+    <div class="alert alert-warning" role="alert">
+        <strong>{{ msg_err }}</strong>
+    </div>
+{% endif %}
+
+<div class="col-xs-12 col-sm-12 placeholder">
+    <form action="" method="post"> {% csrf_token %}
+        {{ form.as_p }}
+        <div class="box-footer">
+            <button type="submit" class="btn btn-lg btn-primary pull-right">{% trans 'Save' %}</button>
+        </div>
+    </form>
+</div>
+{% endblock %}

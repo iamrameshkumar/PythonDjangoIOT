@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CloudEngine", "CloudEngine\CloudEngine.pyproj", "{B1152BB0-DC59-40F8-96D0-4F80974DC480}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1152BB0-DC59-40F8-96D0-4F80974DC480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1152BB0-DC59-40F8-96D0-4F80974DC480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1152BB0-DC59-40F8-96D0-4F80974DC480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1152BB0-DC59-40F8-96D0-4F80974DC480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACF57EAD-B67D-46C4-8B15-F438151E3D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACF57EAD-B67D-46C4-8B15-F438151E3D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACF57EAD-B67D-46C4-8B15-F438151E3D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACF57EAD-B67D-46C4-8B15-F438151E3D37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97DC3FC0-AF74-45A2-A9D4-B4812F830E58}
+	EndGlobalSection
+EndGlobal

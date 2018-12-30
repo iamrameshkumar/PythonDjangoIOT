@@ -1,0 +1,174 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="tr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>IOT Dashboard &#8212; CloudEngine 1 belgelendirme çalışması</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/translations.js"></script>
+    <link rel="index" title="Dizin" href="genindex.html" />
+    <link rel="search" title="Ara" href="search.html" />
+    <link rel="next" title="IOT API DOCS" href="api_docs.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="CloudEngine">
+<h1>IOT Dashboard<a class="headerlink" href="#CloudEngine" title="Bu başlığın kalıcı bağlantısı">¶</a></h1>
+</div>
+<div class="section" id="icindekiler">
+<h1>İçindekiler<a class="headerlink" href="#icindekiler" title="Bu başlığın kalıcı bağlantısı">¶</a></h1>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="api_docs.html">IOT API DOCS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api_post.html">IOT Django REST framework Web API POST</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="post.html">POST Web API</a></li>
+<li class="toctree-l2"><a class="reference internal" href="post.html#Post-structure">Post Yapısı</a></li>
+<li class="toctree-l2"><a class="reference internal" href="post.html#post-api">Post Api</a></li>
+<li class="toctree-l2"><a class="reference internal" href="post.html#post-api-requests-post-localhost">Post Api Requests.Post localhost</a></li>
+<li class="toctree-l2"><a class="reference internal" href="post.html#post-api-requests-post-CloudEngine">Post Api Requests.Post CloudEngine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="post.html#post-api-requests-post-with-c-CloudEngine">Post Api Requests.Post with C# CloudEngine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="post.html#id2">Post Api Requests.Post localhost</a></li>
+<li class="toctree-l2"><a class="reference internal" href="post.html#post-api-requests-post-headers">Post Api Requests.Post headers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="post.html#post-api-requests-post-urllib">Post Api Requests.Post urllib</a></li>
+<li class="toctree-l2"><a class="reference internal" href="post.html#post-api-requests-post-httplib">Post Api Requests.Post httplib</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="api_get.html">IOT Django REST framework Web API GET</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="get.html">GET Web API</a></li>
+<li class="toctree-l2"><a class="reference internal" href="get.html#get-yapisi">GET Yapısı</a></li>
+<li class="toctree-l2"><a class="reference internal" href="get.html#get-api">GET Api</a></li>
+<li class="toctree-l2"><a class="reference internal" href="get.html#get-api-requests-get-all-data">Get Api Requests.Get all data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="get.html#get-api-requests-get-last-data">Get Api Requests.Get last data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="get.html#get-api-requests-get-first-data">Get Api Requests.Get first data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="get.html#get-api-requests-get-all-first-last-data-with-c">Get Api Requests.Get all/first/last data with C#</a></li>
+<li class="toctree-l2"><a class="reference internal" href="get.html#get-api-requests-get-py-get-json-to-py2neo">Get Api Requests.Get py_get_json_to_py2neo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="get.html#get-api-requests-get-py-get-requests">Get Api Requests.Get py_get_requests</a></li>
+<li class="toctree-l2"><a class="reference internal" href="get.html#get-api-requests-get-py-get-requests-matplotlib">Get Api Requests.Get py_get_requests_matplotlib</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<ul class="simple">
+<li><a class="reference internal" href="genindex.html"><span class="std std-ref">directory</span></a></li>
+<li><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Directory</span></a></li>
+<li><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></li>
+</ul>
+</div>
+<div class="section" id="nasil-test-ederim">
+<h1>How do I test?<a class="headerlink" href="#nasil-test-ederim" title="Bu başlığın kalıcı bağlantısı">¶</a></h1>
+<p>All information in this document <a class="reference external" href="http://ihook.xyz/">http://ihook.xyz/</a> It can be tested online..</p>
+<p>Online iot dashboard for <a class="reference external" href="http://CloudEngine.com">http://CloudEngine.com</a> Please visit.</p>
+</div>
+<div class="section" id="CloudEngine-nedir">
+<h1>Iot Dashboard Nedir?<a class="headerlink" href="#CloudEngine-nedir" title="Bu başlığın kalıcı bağlantısı">¶</a></h1>
+<p>Banana Pi, NanoPC, Intel Edison, Parallella, Raspberry Pi with Python / Django REST framework working on single-card computers such as
+  Improved Web Api service. GET, POST, PUT and DELETE through Web Api by contacting IoT devices
+  It is designed to be able to perform operations easily. IoT: Platform for Internet of Things CloudEngine.com</p>
+<p>What?</p>
+<p><strong>CloudEngine</strong> is a web service network project that transfers data between internet connected objects (iot). <strong>CloudEngine</strong> with <em>Arduino, Raspberry Pi,
+Android, iOS, Windows Phone, Web Site, Banana Pi, Orange Pi, Beaglebone,
+ARM, Pic, Windows, Mac OS X, ve Linux</em> based systems.</p>
+</div>
+<div class="section" id="neden-CloudEngine">
+<h1>Why CloudEngine?<a class="headerlink" href="#neden-CloudEngine" title="Permanent link of this header">¶</a></h1>
+<ul class="simple">
+<li>You can create unlimited channels,</li>
+<li>You can add unlimited elements,</li>
+<li>You can easily send data with all your devices (post),</li>
+<li>Easily receive data from all iot devices (get),</li>
+<li>You can track your data in real time,</li>
+<li>Create real-time graphs for your data,</li>
+</ul>
+<p>CloudEngine allows you to transfer data between all your devices easily
+Supports communication protocols.</p>
+<p>Google developer chart integrated real-time monitoring of data</p>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="#">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">IOT Dashboard</a></li>
+<li><a class="reference internal" href="#icindekiler">Contents</a></li>
+<li><a class="reference internal" href="#nasil-test-ederim">How do I test?</a></li>
+<li><a class="reference internal" href="#CloudEngine-nedir">What is Iot Dashboard?</a></li>
+<li><a class="reference internal" href="#neden-CloudEngine">Why CloudEngine?</a></li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="#">Documentation overview</a><ul>
+      <li>Next: <a href="api_docs.html" title="sonraki bölüm">IOT API DOCS</a></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>Bu Sayfa</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/index.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick Search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Git" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2016, CloudEngine.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.3</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="_sources/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

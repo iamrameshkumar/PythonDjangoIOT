@@ -1,0 +1,50 @@
+{% extends "back/base.html" %}
+
+{% load staticfiles %}
+{% load custom_tags %}
+{% load i18n %}
+
+{% block title %}Key List{% endblock %}
+
+{% block website_name %}Key List{% endblock %}
+
+{% block content %}
+
+{% if msg_ok %}
+    <div class="alert alert-info" role="alert">
+        <strong>{{ msg_ok }}</strong>
+    </div>
+{% endif %}
+
+{% if msg_err %}
+    <div class="alert alert-warning" role="alert">
+        <strong>{{ msg_err }}</strong>
+    </div>
+{% endif %}
+
+<div class="col-xs-12 col-sm-12 placeholder">
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>{% trans 'Id' %}</th>
+                <th>{% trans 'Channel Name' %}</th>
+                <th>{% trans 'API Key' %}</th>
+                <th>{% trans 'Generate API Key' %}</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for i in list %}
+            <tr>
+                <td>{{ i.id }}</td>
+                <td>{{ i.channel_name }}</td>
+                <td><a class="tooltip-viewport-bottom" title="{{ i.api_key }}">{{ i.api_key }}</a></td>
+                <td><a class="btn btn-danger" href="{% url 'generate_key' i.id %}" role="button" onclick="return confirm('{% trans "Are you sure you want to generate a new write API key?" %}');">{% trans 'Üret' %}</a></td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+</div>
+{% endblock %}

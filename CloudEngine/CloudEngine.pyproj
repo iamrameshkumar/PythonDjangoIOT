@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <Name>CloudEngine</Name>
+    <RootNamespace>CloudEngine</RootNamespace>
+    <InterpreterId>MSBuild|Env|$(MSBuildProjectFullPath)</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>b1152bb0-dc59-40f8-96d0-4f80974dc480</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectTypeGuids>{5F0BE9CA-D677-4A4D-8806-6076C0FAAD37};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <StartupFile>manage.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <WebBrowserUrl>http://localhost</WebBrowserUrl>
+    <LaunchProvider>Django launcher</LaunchProvider>
+    <DjangoSettingsModule>CloudEngine.settings</DjangoSettingsModule>
+    <OutputPath>.</OutputPath>
+    <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="accounts\apps.py" />
+    <Compile Include="accounts\forms.py" />
+    <Compile Include="accounts\models.py" />
+    <Compile Include="accounts\serializers.py" />
+    <Compile Include="accounts\urls.py" />
+    <Compile Include="accounts\utils.py" />
+    <Compile Include="accounts\views.py" />
+    <Compile Include="accounts\__init__.py" />
+    <Compile Include="accounts\migrations\__init__.py" />
+    <Compile Include="channels\admin.py" />
+    <Compile Include="channels\apps.py" />
+    <Compile Include="channels\forms.py" />
+    <Compile Include="channels\models.py" />
+    <Compile Include="channels\tests.py" />
+    <Compile Include="channels\views.py" />
+    <Compile Include="channels\__init__.py" />
+    <Compile Include="channels\migrations\__init__.py" />
+    <Compile Include="datas\admin.py" />
+    <Compile Include="datas\apps.py" />
+    <Compile Include="datas\permissions.py" />
+    <Compile Include="datas\models.py" />
+    <Compile Include="datas\tests.py" />
+    <Compile Include="datas\views.py" />
+    <Compile Include="datas\serializers.py" />
+    <Compile Include="datas\views_api_v1.py" />
+    <Compile Include="datas\views_api_v1_1.py" />
+    <Compile Include="datas\__init__.py" />
+    <Compile Include="datas\migrations\__init__.py" />
+    <Compile Include="user_profile\adapter.py" />
+    <Compile Include="user_profile\admin.py" />
+    <Compile Include="user_profile\apps.py" />
+    <Compile Include="user_profile\models.py" />
+    <Compile Include="user_profile\tests.py" />
+    <Compile Include="user_profile\views.py" />
+    <Compile Include="user_profile\serializers.py" />
+    <Compile Include="user_profile\__init__.py" />
+    <Compile Include="user_profile\migrations\__init__.py" />
+    <Compile Include="manage.py" />
+    <Compile Include="models.py" />
+    <Compile Include="setup.py" />
+    <Compile Include="remove_migrations.py" />
+    <Compile Include="CloudEngine\__init__.py" />
+    <Compile Include="CloudEngine\debug.py" />
+    <Compile Include="CloudEngine\settings.py" />
+    <Compile Include="CloudEngine\urls.py" />
+    <Compile Include="CloudEngine\wsgi.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="accounts\" />
+    <Folder Include="accounts\migrations\" />
+    <Folder Include="accounts\templates\accounts\" />
+    <Folder Include="channels\" />
+    <Folder Include="channels\migrations\" />
+    <Folder Include="CloudEngine\" />
+    <Folder Include="datas\" />
+    <Folder Include="datas\migrations\" />
+    <Folder Include="static\" />
+    <Folder Include="static\back\" />
+    <Folder Include="static\back\assets\" />
+    <Folder Include="static\back\assets\css\" />
+    <Folder Include="static\back\assets\js\" />
+    <Folder Include="static\back\assets\js\vendor\" />
+    <Folder Include="static\back\chart\" />
+    <Folder Include="static\back\chart\home\" />
+    <Folder Include="static\back\chart\home\css\" />
+    <Folder Include="static\back\chart\home\images\" />
+    <Folder Include="static\back\chart\home\images\bg\" />
+    <Folder Include="static\back\chart\js\" />
+    <Folder Include="static\back\chart\js\demo\" />
+    <Folder Include="static\back\chart\js\highcharts\" />
+    <Folder Include="static\back\chart\js\highcharts\themes\" />
+    <Folder Include="static\back\chart\styles\" />
+    <Folder Include="static\back\dashboard\" />
+    <Folder Include="static\back\dashboard\img\" />
+    <Folder Include="static\back\dashboard\js\" />
+    <Folder Include="static\back\dist\" />
+    <Folder Include="static\back\dist\css\" />
+    <Folder Include="static\back\dist\fonts\" />
+    <Folder Include="static\back\dist\js\" />
+    <Folder Include="static\back\graph\" />
+    <Folder Include="static\back\graph\css\" />
+    <Folder Include="static\back\gstatic\" />
+    <Folder Include="static\css\" />
+    <Folder Include="static\front\" />
+    <Folder Include="static\front\css\" />
+    <Folder Include="static\front\fonts\" />
+    <Folder Include="static\front\images\" />
+    <Folder Include="static\front\js\" />
+    <Folder Include="static\js\" />
+    <Folder Include="static\vendor\" />
+    <Folder Include="static\vendor\bootstrap\" />
+    <Folder Include="static\vendor\bootstrap\css\" />
+    <Folder Include="static\vendor\bootstrap\js\" />
+    <Folder Include="static\vendor\jquery\" />
+    <Folder Include="static\vendor\popper\" />
+    <Folder Include="templates\" />
+    <Folder Include="templates\admin" />
+    <Folder Include="templates\back" />
+    <Folder Include="templates\back\graph\" />
+    <Folder Include="templates\layouts" />
+    <Folder Include="templates\layouts\default\" />
+    <Folder Include="templates\rest_framework" />
+    <Folder Include="templates\rest_framework_swagger" />
+    <Folder Include="user_profile\" />
+    <Folder Include="user_profile\blob\" />
+    <Folder Include="user_profile\blob\master\" />
+    <Folder Include="user_profile\locale\en\" />
+    <Folder Include="user_profile\locale\en\LC_MESSAGES\" />
+    <Folder Include="user_profile\migrations\" />
+    <Folder Include="user_profile\locale\" />
+    <Folder Include="user_profile\docs\" />
+    <Folder Include="user_profile\blob\master\docs\" />
+    <Folder Include="accounts\templates" />
+    <Folder Include="accounts\templates\accounts\emails" />
+    <Folder Include="accounts\templates\accounts\profile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="requirements.txt" />
+    <Content Include="CloudEngine_db.sqlite3" />
+    <Content Include="templates\admin\base_site.html" />
+    <Content Include="templates\back\graph\graph.html" />
+    <Content Include="templates\back\add.html" />
+    <Content Include="templates\back\base.html" />
+    <Content Include="templates\back\change_language.html" />
+    <Content Include="templates\back\channel_list.html" />
+    <Content Include="templates\back\chart_view.html" />
+    <Content Include="templates\back\chart_view_realtime.html" />
+    <Content Include="templates\back\chart_view_realtime_1.html" />
+    <Content Include="templates\back\data_list.html" />
+    <Content Include="templates\back\footer.html" />
+    <Content Include="templates\back\index.html" />
+    <Content Include="templates\back\js.html" />
+    <Content Include="templates\back\key_list.html" />
+    <Content Include="templates\back\navbar.html" />
+    <Content Include="templates\back\sidebar.html" />
+    <Content Include="templates\layouts\default\page.html" />
+    <Content Include="templates\rest_framework\api.html" />
+    <Content Include="templates\rest_framework\base.html" />
+    <Content Include="templates\rest_framework\login.html" />
+    <Content Include="templates\rest_framework\login_base.html" />
+    <Content Include="templates\rest_framework_swagger\base.html" />
+    <Content Include="templates\rest_framework_swagger\index.html" />
+    <Content Include="templates\del.html" />
+    <Content Include="user_profile\blob\master\docs\index.rst" />
+    <Content Include="user_profile\locale\en\LC_MESSAGES\django.po" />
+    <Content Include="accounts\templates\accounts\log_in.html" />
+    <Content Include="accounts\templates\accounts\log_out.html" />
+    <Content Include="accounts\templates\accounts\remind_username.html" />
+    <Content Include="accounts\templates\accounts\resend_activation_code.html" />
+    <Content Include="accounts\templates\accounts\restore_password.html" />
+    <Content Include="accounts\templates\accounts\restore_password_confirm.html" />
+    <Content Include="accounts\templates\accounts\restore_password_done.html" />
+    <Content Include="accounts\templates\accounts\sign_up.html" />
+    <Content Include="accounts\templates\accounts\profile\change_email.html" />
+    <Content Include="accounts\templates\accounts\profile\change_password.html" />
+    <Content Include="accounts\templates\accounts\profile\change_profile.html" />
+    <Content Include="accounts\templates\accounts\emails\activate_profile.html" />
+    <Content Include="accounts\templates\accounts\emails\activate_profile.txt" />
+    <Content Include="accounts\templates\accounts\emails\change_email.html" />
+    <Content Include="accounts\templates\accounts\emails\change_email.txt" />
+    <Content Include="accounts\templates\accounts\emails\forgotten_username.html" />
+    <Content Include="accounts\templates\accounts\emails\forgotten_username.txt" />
+    <Content Include="accounts\templates\accounts\emails\restore_password_email.html" />
+    <Content Include="accounts\templates\accounts\emails\restore_password_email.txt" />
+    <Content Include="static\**\*.*" />
+    <Content Include=".gitignore" />
+    <Content Include=".gitattributes" />
+    <Content Include="CloudEngine.png" />
+    <Content Include="CloudEngine.svg" />
+    <Content Include="CloudEngine.xls" />
+    <Content Include="index.rst" />
+    <Content Include="LICENSE" />
+    <Content Include="local" />
+    <Content Include="makehtml" />
+    <Content Include="MANIFEST.in" />
+    <Content Include="Procfile" />
+    <Content Include="README.md" />
+    <Content Include="runtime.txt" />
+    <Content Include="setup.cfg" />
+    <Content Include="TODO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="readme.txt">
+      <SubType>WebBrowser</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="Env\">
+      <Id>Env</Id>
+      <Version>3.6</Version>
+      <Description>Env (Python 3.6 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Django.targets" />
+  <!-- Specify pre- and post-build commands in the BeforeBuild and 
+       AfterBuild targets below. -->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <AutoAssignPort>True</AutoAssignPort>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

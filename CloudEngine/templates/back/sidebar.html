@@ -1,0 +1,19 @@
+{% load i18n %}
+
+<div class="col-sm-3 col-md-2 sidebar">
+    <ul class="nav nav-sidebar">
+        <li class="{% if panel %}active{% endif %}"><a href="{% url 'index' %}">Panel <span class="sr-only">(current)</span></a></li>
+        <li class="{% if channel_add %}active{% endif %}"><a href="{% url 'channel_add' %}">Add channel <span class="sr-only">(current)</span></a></li>
+        <li class="{% if channel_list %}active{% endif %}"><a href="{% url 'channel_list' %}">Channel List <span class="sr-only">(current)</span></a></li>
+    </ul>
+    <ul class="nav nav-sidebar">
+        <li class="{% if datas %}active{% endif %}"><a href="{% url 'datas' %}">Datas <span class="sr-only">(current)</span></a></li>
+    </ul>
+    <ul class="nav nav-sidebar">
+        <li class="{% if key_list %}active{% endif %}"><a href="{% url 'key_list' %}">Key list <span class="sr-only">(current)</span></a></li>
+    </ul>
+    <ul class="nav nav-sidebar">
+        <li><a href="/api/">{% trans 'API' %}</a></li>
+        <li><a href="/api-docs/">{% trans 'API Document' %}</a></li>
+    </ul>
+</div>

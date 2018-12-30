@@ -1,0 +1,524 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+This is the PACKAGE package.
+# FIRST AUTHOR <EMAIL @ ADDRESS>, YEAR.
+#
+# Fuzzy
+"" "
+msgid ""
+"Project-Id-Version: PACKAGE VERSION \ n"
+"Report-Msgid-Bugs-To: \ n"
+"POT-Creation-Date: 2016-09-16 15: 38 + 0300 \ n"
+"PO-Revision-Date: YEAR-MO-DA HO: MI + ZONE \ n"
+"Last-Translator: FULL NAME <EMAIL @ ADDRESS> \ n"
+"Language-Team: LANGUAGE <LL@li.org> \ n"
+"Language: \ n"
+"MIME-Version: 1.0 \ n"
+"Content-Type: text/plain; charset = UTF-8 \ n"
+"Content-Transfer-Encoding: 8bit \ n"
+
+#: channels/models.py: 23 devices/models.py: 21 elements/models.py: 28
+msgid "name"
+. msgid "name"
+
+#: channels/models.py: 23
+"Enter channel name"
+msgid "Channel name"
+
+#: channels/models.py: 24 templates/back/index.html: 37
+msgid "api key"
+msgid "api key"
+
+#: channels/models.py: 25 datas/models.py: 26
+"release date"
+"publish date"
+
+#: channels/models.py: 26 devices/models.py: 25 elements/models.py: 31
+msgid "description"
+msgstr "description"
+
+#: channels/models.py: 27 devices/models.py: 26 elements/models.py: 32
+"enable"
+msgid "enable"
+
+#: channels/views.py: 36
+"Channel insertion successful"
+"Add channel successful"
+
+#: channels/views.py: 38 channels/views.py: 68 devices/views.py: 44
+#: devices/views.py: 72 elements/views.py: 38 elements/views.py: 68
+"Attention! Please correct errors!"
+"Warning! Please correct the mistake!"
+
+#: channels/views.py: 65
+"Channel update successful"
+msgstr "Channel update successful"
+
+#: channels/views.py: 81
+msgid "Channel deleted"
+msgstr "Add Channel"
+
+#: channels/views.py: 105
+"Key was generated"
+msgid "Key Manager"
+
+#: datas/models.py: 22
+"ip address"
+"remote address"
+
+#: datas/models.py: 24 elements/models.py: 29
+msgid "name id"
+"name id"
+
+#: datas/models.py: 25
+msgid "value"
+msgid "value"
+
+#: datas/views.py: 215
+"Channel:"
+msgstr "Channel"
+
+#: devices/models.py: 21
+"Enter the device name"
+msgstr "Device name"
+
+#: devices/models.py: 23
+msgid "image"
+msgid "image"
+
+#: devices/models.py: 24 elements/models.py: 30
+"release date"
+"publish date"
+
+#: devices/views.py: 42
+"Add device successfully"
+"Add device successful"
+
+#: devices/views.py: 69
+"Device update successful"
+"Device update successful"
+
+#: devices/views.py: 85
+# Fuzzy
+"Device deleted"
+msgstr "Add Device"
+
+#: elements/models.py: 27
+"type"
+msgid "type"
+
+#: elements/views.py: 36
+msgid "Element insertion successful"
+"Add element successful"
+
+#: elements/views.py: 65
+msgid "Element update successful"
+"Element update successful"
+
+#: elements/views.py: 81
+msgid "Element deleted"
+msgstr "Add Element"
+
+#: CloudEngine/settings.py: 124
+"Turkish"
+msgid "English"
+
+#: CloudEngine/settings.py: 125
+"English"
+msgstr "English"
+
+#: templates/admin/base_site.html: 4
+"Iot site admin"
+msgid ""
+
+#: templates/admin/base_site.html: 7
+"Iot dashboard administration"
+msgid ""
+
+# templates/back/add.html: 7 templates/back/add.html: 9
+"Add"
+msgid "Add"
+
+#: templates/back/add.html: 29
+msgid "Save"
+msgid "Save"
+
+#: templates/back/base.html: 18
+"Dashboard for Iot Device"
+msgid ""
+
+#: templates/back/channel_list.html: 7 templates/back/channel_list.html: 9
+"Channel List"
+msgid "Channel List"
+
+#: templates/back/channel_list.html: 10 templates/back/data_list.html: 10
+#: templates/back/device_list.html: 10 templates/back/element_list.html: 10
+"Import json"
+"Export Json"
+
+#: templates/back/channel_list.html: 11 templates/back/data_list.html: 11
+# templates/back/device_list.html: 11 templates/back/element_list.html: 11
+"Import Xml"
+msgid "Export Xml"
+
+# templates/back/channel_list.html: 33 templates/back/data_list.html: 33
+# templates/back/device_list.html: 33 templates/back/element_list.html: 33
+#: templates/back/key_list.html: 30
+msgid "Id"
+msgid ""
+
+# templates/back/channel_list.html: 34 templates/back/data_list.html: 36
+# templates/back/element_list.html: 34 templates/back/key_list.html: 31
+msgid "Device"
+msgid "Device"
+
+#: templates/back/channel_list.html: 35 templates/back/device_list.html: 34
+#: templates/back/element_list.html: 36 templates/back/key_list.html: 32
+msgid "Name"
+msgid "Name"
+
+#: templates/back/channel_list.html: 36 templates/back/key_list.html: 33
+msgid "Api Key"
+msgid ""
+
+#: templates/back/channel_list.html: 37 templates/back/data_list.html: 40
+Templates/back/device_list.html: 35 templates/back/element_list.html: 39
+msgid "Release Date"
+msgstr "Publish Date"
+
+#: templates/back/channel_list.html: 38 templates/back/device_list.html: 36
+#: templates/back/element_list.html: 40
+msgid "Description"
+msgid "Description"
+
+#: templates/back/channel_list.html: 39 templates/back/device_list.html: 37
+#: templates/back/element_list.html: 41
+msgid "Activate"
+msgid "Enable"
+
+#: templates/back/channel_list.html: 40 templates/back/channel_list.html: 54
+#: templates/back/device_list.html: 38 templates/back/device_list.html: 50
+#: templates/back/element_list.html: 42 templates/back/element_list.html: 58
+"Update"
+msgid "Edit"
+
+#: templates/back/channel_list.html: 41 templates/back/channel_list.html: 55
+#: templates/back/device_list.html: 39 templates/back/device_list.html: 51
+#: templates/back/element_list.html: 43 templates/back/element_list.html: 59
+"Delete"
+msgid "Delete"
+
+#: templates/back/channel_list.html: 55 templates/back/device_list.html: 51
+#: templates/back/element_list.html: 59
+"Model will be deleted. Are you sure?"
+"Delete Model. Are you sure?"
+
+#: templates/back/chart_view.html: 8 templates/back/chart_view.html: 10
+"Graphics Display"
+msgid "View"
+
+#: templates/back/data_list.html: 7 templates/back/data_list.html: 9
+#: templates/back/navbar.html: 30 templates/back/sidebar.html: 18
+"Datas"
+"Datas"
+
+#: templates/back/data_list.html: 34
+msgid "Owner"
+msgid "Owner"
+
+#: templates/back/data_list.html: 35
+"IP Address"
+msgid "Remote Address"
+
+#: templates/back/data_list.html: 37 templates/back/element_list.html: 35
+msgid "Channel"
+msgstr "Channel"
+
+#: templates/back/data_list.html: 38 templates/back/element_list.html: 38
+msgid "Name Id"
+msgid "Name Id"
+
+#: templates/back/data_list.html: 39
+msgid "Value"
+msgid "Value"
+
+#: templates/back/data_list.html: 41
+"Show Chart"
+msgid "View"
+
+#: templates/back/data_list.html: 55
+msgid "Show"
+msgid "View"
+
+# templates/back/device_list.html: 7 templates/back/device_list.html: 9
+"Device List"
+msgstr "Add Device"
+
+#: templates/back/element_list.html: 7 templates/back/element_list.html: 9
+msgid "List of Elements"
+msgstr "Add Element"
+
+#: templates/back/element_list.html: 37
+msgid "Type"
+msgid "Type"
+
+#: templates/back/footer.html: 7
+msgid "Go up"
+msgid "Back to top"
+
+#: templates/back/footer.html: 8
+"Privacy"
+msgid "Privacy"
+
+#: templates/back/footer.html: 8
+"Terms of Use"
+msgstr "Terms"
+
+#: templates/back/index.html: 7
+"Free Dashboard for Iot Devices"
+msgid "Free Dashboard for Iot Devices"
+
+#: templates/back/index.html: 16
+"add iot device"
+"Add Iot Device"
+
+#: templates/back/index.html: 17 templates/back/navbar.html: 21
+#: templates/back/sidebar.html: 6
+"Add Device"
+msgstr "Add Device"
+
+#: templates/back/index.html: 18
+"Iot Device Manager"
+msgid "Iot Device Manager"
+
+#: templates/back/index.html: 23
+msgid "iot Add channel"
+msgstr "Add Channel"
+
+#: templates/back/index.html: 24 templates/back/navbar.html: 22
+#: templates/back/sidebar.html: 7
+msgid "Add channel"
+msgstr "Add Channel"
+
+#: templates/back/index.html: 25
+msgid "Iot Channel Manager"
+msgid "Iot Channel Manager"
+
+#: templates/back/index.html: 30
+"add iot element"
+msgstr "Add Element"
+
+#: templates/back/index.html: 31 templates/back/navbar.html: 23
+#: templates/back/sidebar.html: 8
+msgid "Add Element"
+msgstr "Add Element"
+
+#: templates/back/index.html: 32
+"Iot Element Observer"
+msgid "Iot Element Explorer"
+
+#: templates/back/index.html: 38
+msgid "Key Manager"
+msgid "Key Manager"
+
+#: templates/back/index.html: 39
+msgid "New Key Produce"
+msgid "Create New Key"
+
+#: templates/back/key_list.html: 34
+"Create API Key"
+"Create New API Key"
+
+#: templates/back/key_list.html: 44
+msgid "Are you sure you want a new write API key?"
+"Do you want to generate new API key?"
+
+#: templates/back/key_list.html: 44
+msgid "Generate"
+"Generate"
+
+#: templates/back/navbar.html: 19
+msgid "Manage"
+msgstr "Manage"
+
+#: templates/back/navbar.html: 25 templates/back/sidebar.html: 11
+msgid "Devices"
+msgstr "Devices"
+
+#: templates/back/navbar.html: 26 templates/back/sidebar.html: 12
+msgid "Channels"
+msgstr "Channels"
+
+#: templates/back/navbar.html: 27 templates/back/sidebar.html: 13
+msgid "Elements"
+msgid "Elements"
+
+#: templates/back/navbar.html: 29 templates/back/sidebar.html: 16
+"API"
+msgid ""
+
+#: templates/back/navbar.html: 33
+"Settings"
+msgstr "Settings"
+
+#: templates/back/navbar.html: 34
+"help"
+msgid "Help"
+
+#: templates/back/navbar.html: 39
+msgid "Exit"
+msgid "Logout"
+
+#: templates/back/navbar.html: 46
+"Login"
+msgid "Login"
+
+#: templates/back/sidebar.html: 17
+"API Document"
+msgid "API Docs"
+
+#: templates/front/index.html: 8
+"iHook, iot dashboard, iot server"
+msgid ""
+
+#: templates/front/index.html: 55
+msgid "HOME"
+msgid "MAIN PAGE"
+
+#: templates/front/index.html: 56
+"IOT DASHBOARD DEMO"
+msgid ""
+
+#: templates/front/index.html: 57
+"IOT GITHUB"
+msgid ""
+
+#: templates/front/index.html: 58
+msgid "CONTACT"
+msgid "CONTACT"
+
+#: templates/front/index.html: 59
+"DOCS"
+msgid ""
+
+#: templates/front/index.html: 66
+msgid "Django Server for iOT"
+msgid "Django Server for IOT"
+
+#: templates/front/index.html: 67
+"" "
+"<span> Iot dashboard as open source, Python programming language and Django"
+"framework </ span> is an easy-to-use"
+"was developed to manage the way. <span> Api, web service, database,"
+"what you need with a few clicks \ n"
+"\ t \ t \ t \ tkolayca ... </ span> <span> Arduino, Raspberry Pi, Android, iOS, Windows"
+"Phone and other smart </ span> devices can connect with iHOOK."
+msgid ""
+
+#: templates/front/index.html: 71
+msgid "TEST NOW"
+msgstr "TEST NOW"
+
+#: templates/front/index.html: 103
+msgid "Mobile"
+msgid "Mobile"
+
+#: templates/front/index.html: 104
+"" "
+"Improve your application for your mobile device and connect to the ihook database."
+Description #: ../postgresql.templates: 9 msgid "Ihook database connect for mobile app."
+
+#: templates/front/index.html: 104
+"Update your data with the Web service."
+"Data update and web services"
+
+#: templates/front/index.html: 111
+"You can manage all iOT-compatible devices with iHook."
+. "iHook web service administrator for iot devices."
+
+#: templates/front/index.html: 111
+"Importing data, updating status, transferring data ..."
+"Get data, data update, data send ..."
+
+#: templates/front/index.html: 111
+msgid "Smart device management ..."
+"Smart devices administrator ..."
+
+#: templates/front/index.html: 117
+"Web Service"
+msgid "Web Service"
+#: templates/front/index.html:118
+"You need a database?"
+msgstr "Are you want database"
+
+#: templates/front/index.html: 118
+"Do you want to do smart forms?"
+"Create form your web site"
+
+#: templates/front/index.html: 118
+"Connect your Static site"
+msgid "Web site hook"
+
+#: templates/front/index.html: 134
+"Internet of objects"
+msgid "Internet of Things"
+
+#: templates/front/index.html: 135
+"" "
+"You can control things connected to the Internet from a center. <Span> iHook web"
+"mobile with service </ span> \ n"
+"interconnect your devices and iOT devices"
+"You can connect. <span> To the internet in your home </ span> \ n"
+"check your connected device again over the internet"
+"You can."
+msgid ""
+
+#: templates/front/index.html: 166
+"APPLICATION DEVELOPMENT"
+msgstr "DEVELOPERS"
+
+#: templates/front/index.html: 167
+"" "
+"MySQL, PostgreSQL and SQLite <span> with a few clicks of your database"
+"create. </ span> \ n"
+"Android, iOS, Windows Phone and other smart <span> \ n"
+"easily connect with your devices."
+"Span> \ n"
+"E-mail and web service to reach your data from anywhere."
+msgid ""
+
+#: templates/front/index.html: 171
+"more"
+msgid "READ"
+
+#: templates/front/index.html: 208
+msgid "iot server for Raspberry Pi"
+msgid "Iot server for Raspberry Pi"
+
+#: templates/front/index.html: 209
+"Contact your iOT with iHook."
+"Connect iOT device for iHook."
+
+#: templates/front/index.html: 210
+msgid "-Bulut, iOT, WWW, Raspberry Pi,"
+msgid "-Cloud, iOT, WWW,"
+
+#: templates/front/index.html: 218
+"IOT database for your device,"
+"Cloud data management,"
+
+#: templates/front/index.html: 218
+"external database connection."
+"External database connect."
+
+#: templates/front/index.html: 220
+"-Web service, Api,"
+msgid "-Web service, Api,"
+
+#: templates/front/index.html: 228
+msgid "Database for your mobile application,"
+msgid "Database for Mobile app,"
+
+#: templates/front/index.html: 229
+"secure storage for your data."
+"security data."

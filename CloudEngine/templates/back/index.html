@@ -1,0 +1,42 @@
+{% extends "back/base.html" %}
+
+{% load staticfiles %}
+{% load custom_tags %}
+{% load i18n %}
+
+{% block title %}{% trans 'Free Dashboard for Iot Devices' %}{% endblock %}
+
+{% block website_name %}{% website_name %}{% endblock %}
+
+{% block content %}
+<div class="row placeholders">
+    <div class="col-xs-6 col-sm-3 placeholder">
+        <a href="{% url 'channel_add' %}">
+        <img src="{% static "back/dashboard/img/cloud-256.png" %}" width="200" height="200" class="img-responsive"
+             alt="{% trans 'iot Add channel' %}">
+        <h4>{% trans 'Add channel' %}</h4></a>
+        <span class="text-muted">{% trans 'Iot Channel Manager' %}</span>
+    </div>
+    <div class="col-xs-6 col-sm-3 placeholder">
+        <a href="{% url 'channel_list' %}">
+        <img src="{% static "back/dashboard/img/element-256.png" %}" width="200" height="200" class="img-responsive"
+             alt="{% trans 'iot Channel List' %}">
+        <h4>{% trans 'Channel List' %}</h4></a>
+        <span class="text-muted">{% trans 'Iot Channel Watcher' %}</span>
+    </div>
+    <div class="col-xs-6 col-sm-3 placeholder">
+        <a href="{% url 'datas' %}">
+        <img src="{% static "back/dashboard/img/channel-256.png" %}" width="200" height="200" class="img-responsive"
+             alt="{% trans 'iot Datas' %}">
+        <h4>{% trans 'Datas' %}</h4></a>
+        <span class="text-muted">{% trans 'Iot Data Manager' %}</span>
+    </div>
+    <div class="col-xs-6 col-sm-3 placeholder">
+        <a href="{% url 'key_list' %}">
+        <img src="{% static "back/dashboard/img/key-256.png" %}" width="200" height="200" class="img-responsive"
+             alt="{% trans 'api key' %}">
+        <h4>{% trans 'Key Manager' %}</h4></a>
+        <span class="text-muted">{% trans 'Create New Key' %}</span>
+    </div>
+</div>
+{% endblock %}
