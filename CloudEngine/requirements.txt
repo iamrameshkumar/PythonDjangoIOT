@@ -62,7 +62,7 @@ static3==0.7.0
 stevedore==1.30.0
 typed-ast==1.1.0
 uritemplate==3.0.0
-urllib3==1.24.1
+urllib3==1.26.5
 virtualenv==16.1.0
 virtualenv-clone==0.4.0
 virtualenvwrapper==4.8.2
